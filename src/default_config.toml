@@ -1,0 +1,12 @@
+[camera]
+position = [0.0, 0.0] # 初始位置
+rotation = 0.0 # 初始旋转 (弧度制)
+y_fixpoint = 50.0 # y轴不动点
+z_fixpoint = 1.5 # z轴不动点
+vertex_height = 50.0 # 顶点（墙）的高度
+translation_speed = 0.5 # 移动速度
+rotation_speed = 0.1 # 旋转速度
+
+[world]
+# 顶点，按数组顺序相连，首尾闭合为一个完整的几何图形
+vertexes = [[0.0, 7.0], [5.0, 4.0], [5.0, -1.0], [0.0, -4.0], [-5.0, -1.0], [-5.0, 4.0]]
